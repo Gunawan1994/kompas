@@ -5,3 +5,6 @@
 3. docker-compose up -d
 
 http://localhost:8080/auth/login
+
+email : gunawan@gmail.com
+pass : 12345678
