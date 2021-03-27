@@ -1,15 +1,9 @@
-package tahanan
+package dashboardmain
 
-// Pagination struct for tahanan data
 type Pagination struct {
 	TotalData    int `json:"total_data"`
 	NextPage     int `json:"next_page"`
 	PreviousPage int `json:"prev_page"`
-}
-
-type Chart struct {
-	Male   int `json:"Laki-laki"`
-	Female int `json:"Perempuan"`
 }
 
 // Constanta Message
