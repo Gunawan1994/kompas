@@ -15,11 +15,6 @@ services:
       - ./scripts/db:/docker-entrypoint-initdb.d
     ports:
       - 5432:5432
-  redis:
-    image: redis:alpine
-    container_name: redis
-    ports:
-      - 6379:6379
   frontend:
     image: nginx
     volumes:
@@ -40,4 +35,3 @@ services:
           - 1318:1318
       links:
         - postgres
-        - redis
