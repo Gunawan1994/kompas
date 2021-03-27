@@ -1,0 +1,135 @@
+.login-box-shadow{
+    -webkit-box-shadow: 0px 3px 20px 4px rgba(0,0,0,0.28);
+    -moz-box-shadow: 0px 3px 20px 4px rgba(0,0,0,0.28);
+    box-shadow: 0px 3px 20px 4px rgba(0,0,0,0.28);
+}
+
+.bg-dark{
+    background-color:#2d3436 !important;
+}
+
+.custom-tabs .show > .nav-link, .custom-tabs .nav-link:hover:not(.disabled),
+.custom-tabs .nav-link.active{
+    background-color:#218c74 !important;
+    color:#ffffff;
+}
+
+.page-item.active .page-link{
+    background-color:#218c74;
+    border-color:#218c74;
+}
+
+.green-btn{
+    background-color:#218c74 !important;
+    border-color:#218c74 !important;
+}
+
+.page-link{
+    color:#218c74;
+}
+
+.border-thick{
+    border-width:2px;
+}
+
+.module-name-custom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    div,span{
+        justify-content: normal;
+    }
+
+}
+
+.text-color-greenlight{
+    color:#218c74;
+}
+
+.card:hover  p.hover-green{
+    color:#218c74;
+}
+
+.table-height-300{
+    height:200px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.table-height-400{
+    height:400px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.table.table-head-custom thead th{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.text-color-white{
+    color:#ffffff !important;
+}
+
+.symbol-big{
+    width:100%;
+    overflow: hidden;
+}
+
+.symbol.symbol-big .symbol-label{
+    width:200px;
+    height:200px;
+}
+
+.symbol-big > img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+}
+
+.gallery-custom {
+    line-height: 0;
+     
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;  
+  }
+  
+.gallery-custom img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.svg-200{
+    width:150px;
+    height:150px;
+}
+
+.error-message{
+    color: #f44336;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+  
+
+@media (min-width: 992px){
+    .header-fixed.subheader-fixed.subheader-enabled .wrapper {
+        padding-top: 65px;
+    }
+}
+
+@media (min-width:719px){
+    .border-right-sound{
+       border-right: 1px solid #ccc;
+    }
+}

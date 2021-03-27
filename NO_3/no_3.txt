@@ -1,0 +1,8 @@
+1. SELECT COUNT(judul) AS total FROM artikel WHERE author_id = 1
+2. SELECT body, LENGTH(body) - LENGTH(REPLACE(body, ' ', '')) + 1 FROM artikel
+6. SELECT * FROM artikel where status = 1
+9. SELECT AVG(page_view)AS januari_2020 from artikel where YEAR(tanggal_terbit) = '2020' AND MONTH(tanggal_terbit) = '01';
+5. SELECT id, judul, body,author_id,page_view,status, DATE(tanggal_terbit) as date from artikel ORDER BY date ASC
+4. SELECT artikel.id, artikel.judul, meta_artikel.meta_key, meta_artikel.meta_value
+FROM artikel
+INNER JOIN meta_artikel ON artikel.id=meta_artikel.post_id where meta_artikel.post_id = 1

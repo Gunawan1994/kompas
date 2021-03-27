@@ -1,0 +1,5 @@
+server:
+  http_port: ":1318"
+database:
+  driver: "postgres"
+  master: "postgres://kompas:password@postgres:5432/kompas?sslmode=disable"
